@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  background-image: url(color2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section .person{
+  text-align: center;
+  font-family: cursive;
+  font-weight: 800;
+  color: blue;
+  background-image: url(color2.jpg);
+  border: none;
+  box-shadow: 0 -5px 5px 0px black;
+}
+
+.page-h1{
+  color: rgb(49, 49, 201);
+  text-align: center;
+  box-shadow: inset 0 0 200px orange;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+}
+
+
+header {
+  border-radius: 10px;
+  background-image: url(color1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 23px;
+  font-weight: 800;
+  font-family: cursive;
+  color: #0d274d;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.news-section {
+  min-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  background-image: url(color2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2em;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news-article {
+  width: 30%;
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.news-article h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.news-article p {
+  margin-bottom: 20px;
+}
+
+.news-article img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  border-radius: 10px;
+  background-image: url(color1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blue;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
